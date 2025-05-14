@@ -7,10 +7,7 @@
     "dev": "react-router dev --port 5174",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
-    "prepare": "panda codegen",
-    "convert-tokens": "node scripts/convert-tokens.js",
-    "tokens:build": "style-dictionary build --config scripts/style-dictionary-config.cjs && panda codegen",
-    "tokens:simple": "node scripts/tokens-to-panda.js && panda codegen"
+    "prepare": "panda codegen"
   },
   "dependencies": {
     "@react-router/node": "^7.5.3",
