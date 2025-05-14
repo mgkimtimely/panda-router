@@ -11,4 +11,12 @@ export default defineConfig({
     },
   },
   plugins: [reactRouter(), tsconfigPaths()],
+  ssr: {
+    noExternal: ["remix-utils"],
+  },
+  server: {
+    hmr: {
+      overlay: false,
+    },
+  },
 });

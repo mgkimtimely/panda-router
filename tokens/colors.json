@@ -1,0 +1,115 @@
+{
+  "colors": {
+    "grayscale-white": {
+      "value": "#ffffff"
+    },
+    "grayscale-gray-50": {
+      "value": "#f7f8f9"
+    },
+    "grayscale-gray-100": {
+      "value": "#e8ebed"
+    },
+    "grayscale-gray-200": {
+      "value": "#c9cdd2"
+    },
+    "grayscale-gray-300": {
+      "value": "#9ea4aa"
+    },
+    "grayscale-gray-400": {
+      "value": "#72787f"
+    },
+    "grayscale-gray-500": {
+      "value": "#4d5053"
+    },
+    "grayscale-gray-600": {
+      "value": "#3d4043"
+    },
+    "grayscale-black": {
+      "value": "#1b1d1f"
+    },
+    "primary-primary-50": {
+      "value": "#f8f5ff"
+    },
+    "primary-primary-100": {
+      "value": "#e2d6ff"
+    },
+    "primary-primary-200": {
+      "value": "#c8acff"
+    },
+    "primary-primary-500": {
+      "value": "#894fff"
+    },
+    "primary-primary-600": {
+      "value": "#6d35de"
+    },
+    "primary-primary-700": {
+      "value": "#5221b5"
+    },
+    "red-red-50": {
+      "value": "#fef3f2"
+    },
+    "red-red-100": {
+      "value": "#ffeaea"
+    },
+    "red-red-200": {
+      "value": "#ffdddd"
+    },
+    "red-red-500": {
+      "value": "#e02d3c"
+    },
+    "red-red-600": {
+      "value": "#b91c1c"
+    },
+    "red-red-700": {
+      "value": "#981b25"
+    },
+    "green-green-50": {
+      "value": "#f5fbf8"
+    },
+    "green-green-100": {
+      "value": "#e9fdf0"
+    },
+    "green-green-200": {
+      "value": "#b1f3c8"
+    },
+    "green-green-500": {
+      "value": "#08875d"
+    },
+    "green-green-600": {
+      "value": "#04724d"
+    },
+    "green-green-700": {
+      "value": "#066042"
+    },
+    "yellow-yellow-50": {
+      "value": "#fffaeb"
+    },
+    "yellow-yellow-100": {
+      "value": "#fff5d7"
+    },
+    "yellow-yellow-200": {
+      "value": "#fedf89"
+    },
+    "yellow-yellow-500": {
+      "value": "#b25e09"
+    },
+    "yellow-yellow-600": {
+      "value": "#96530f"
+    },
+    "yellow-yellow-700": {
+      "value": "#80460d"
+    },
+    "blue-blue-50": {
+      "value": "#f7faff"
+    },
+    "blue-blue-100": {
+      "value": "#edf3ff"
+    },
+    "blue-blue-200": {
+      "value": "#b8cfff"
+    },
+    "blue-blue-500": {
+      "value": "#2f6fed"
+    }
+  }
+}
