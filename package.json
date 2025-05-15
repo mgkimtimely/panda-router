@@ -4,10 +4,10 @@
   "type": "module",
   "scripts": {
     "build": "react-router build",
-    "dev": "react-router dev --port 5174",
+    "dev": "pnpm panda clean && panda codegen && panda build && react-router dev --port 5174",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
-    "prepare": "panda codegen"
+    "prepare": "panda codegen && panda build"
   },
   "dependencies": {
     "@react-router/node": "^7.5.3",

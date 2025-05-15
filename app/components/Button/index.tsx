@@ -21,7 +21,6 @@ export default function ButtonComponent({
   size,
   children,
 }: ButtonProps) {
-  console.log(button({ theme, size })); // 이걸 찍어보면 className 나오는지 확인 가능
   return (
     <>
       <button className={button({ theme, size })}>

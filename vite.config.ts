@@ -19,4 +19,12 @@ export default defineConfig({
       overlay: false,
     },
   },
+  optimizeDeps: {
+    include: [
+      "@pandacss/dev",
+      "styled-system/css",
+      "styled-system/recipes",
+      "styled-system/tokens",
+    ],
+  },
 });

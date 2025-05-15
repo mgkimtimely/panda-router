@@ -22,6 +22,9 @@ export default function Test() {
       <ButtonComponent theme="grayScaleFilled" size={"large"}>
         wefwefwefwef
       </ButtonComponent>
+      <ButtonComponent theme="dangerGhostFilled" size={"large"}>
+        wefwefwefwef
+      </ButtonComponent>
     </>
   );
 }
