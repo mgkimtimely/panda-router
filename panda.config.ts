@@ -1,9 +1,10 @@
 import { defineConfig } from "@pandacss/dev";
+import { buttonRecipe } from "styled-system/recipes/buttons";
+import { color } from "styled-system/tokens/color";
+import { shadow } from "styled-system/tokens/shadow";
+import { textStyles } from "styled-system/tokens/typography";
 
 export default defineConfig({
-  // Whether to use css reset
-  preflight: true,
-
   // Where to look for your css declarations
   include: ["./app/**/*.{js,jsx,ts,tsx}"],
 
@@ -12,7 +13,19 @@ export default defineConfig({
 
   // Useful for theme customization
   theme: {
-    extend: {},
+    // 👇🏻 Define your tokens here
+    extend: {
+      textStyles,
+      tokens: {
+        colors: {
+          color,
+          shadow,
+        },
+      },
+      recipes: {
+        button: buttonRecipe,
+      },
+    },
   },
 
   // The output directory for your css system

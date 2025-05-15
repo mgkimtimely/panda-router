@@ -21,7 +21,6 @@
     "@pandacss/dev": "^0.53.6",
     "@react-router/dev": "^7.5.3",
     "@tailwindcss/vite": "^4.1.4",
-    "@types/autoprefixer": "^10.2.4",
     "@types/node": "^20",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
