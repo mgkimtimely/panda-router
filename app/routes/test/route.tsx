@@ -6,23 +6,28 @@ export default function Test() {
       <ButtonComponent theme="primaryFilled" size="large">
         wefwefwefwef
       </ButtonComponent>
-
-      <ButtonComponent theme="dangerFilled" size={"medium"}>
+      <ButtonComponent theme="dangerGhostFilled" size="large">
         wefwefwefwef
       </ButtonComponent>
-
-      <ButtonComponent theme="primaryGhostFilled" size={"small"}>
+      <ButtonComponent theme="dangerFilled" size="large">
         wefwefwefwef
       </ButtonComponent>
-
-      <ButtonComponent theme="whiteFilled" size={"large"}>
+      <ButtonComponent theme="primaryGhostFilled" size="large">
         wefwefwefwef
       </ButtonComponent>
-
-      <ButtonComponent theme="grayScaleFilled" size={"large"}>
+      <ButtonComponent theme="whiteFilled" size="large">
         wefwefwefwef
       </ButtonComponent>
-      <ButtonComponent theme="dangerGhostFilled" size={"large"}>
+      <ButtonComponent theme="grayScaleFilled" size="large">
+        wefwefwefwef
+      </ButtonComponent>
+      <ButtonComponent theme="grayScaleOutline" size="large">
+        wefwefwefwef
+      </ButtonComponent>
+      <ButtonComponent theme="roundOutLine" size="large">
+        wefwefwefwef
+      </ButtonComponent>
+      <ButtonComponent theme="textFilled" size="large">
         wefwefwefwef
       </ButtonComponent>
     </>

@@ -7,24 +7,8 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig({
   css: {
     postcss: {
-      plugins: [pandacss, autoprefixer as any],
+      plugins: [pandacss, autoprefixer],
     },
   },
   plugins: [reactRouter(), tsconfigPaths()],
-  ssr: {
-    noExternal: ["remix-utils"],
-  },
-  server: {
-    hmr: {
-      overlay: false,
-    },
-  },
-  optimizeDeps: {
-    include: [
-      "@pandacss/dev",
-      "styled-system/css",
-      "styled-system/recipes",
-      "styled-system/tokens",
-    ],
-  },
 });

@@ -11,7 +11,8 @@ interface ButtonProps {
     | "whiteFilled"
     | "grayScaleFilled"
     | "grayScaleOutline"
-    | "roundOutLine";
+    | "roundOutLine"
+    | "textFilled";
   size: "large" | "medium" | "small";
   children: React.ReactNode;
 }
@@ -23,8 +24,10 @@ export default function ButtonComponent({
 }: ButtonProps) {
   return (
     <>
-      <button className={button({ theme, size })}>
-        <span className={css({ textStyle: "title-60px-700" })}>{children}</span>
+      <button className={button({ theme: theme, size: size })}>
+        <span className={css({ textStyle: "Title/32px/32px.700" })}>
+          {children}
+        </span>
       </button>
     </>
   );
