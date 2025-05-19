@@ -7,37 +7,37 @@ export const buttonRecipe = defineRecipe({
     display: "flex",
   },
   variants: {
-    theme: {
+    visual: {
       primaryFilled: {
-        bg: "figma.Primary/Primary500",
+        bg: "figma.Primary500",
       },
       dangerFilled: {
-        bg: "figma.Red/Red500",
+        bg: "figma.Red500",
       },
       primaryGhostFilled: {
-        bg: "figma.Primary/Primary50",
+        bg: "figma.Primary50",
       },
       dangerGhostFilled: {
-        bg: "figma.Red/Red50",
+        bg: "figma.Red50",
       },
       whiteFilled: {
-        bg: "figma.Grayscale/White",
+        bg: "figma.White",
       },
       grayScaleFilled: {
-        bg: "figma.Grayscale/Gray50",
+        bg: "figma.Gray50",
       },
       grayScaleOutline: {
-        bg: "figma.Grayscale/White",
+        bg: "figma.White",
         border: "1px solid",
-        borderColor: "figma.Grayscale/Gray200",
+        borderColor: "figma.Gray200",
       },
       roundOutLine: {
-        bg: "figma.Grayscale/White",
+        bg: "figma.White",
         border: "1px solid",
-        borderColor: "figma.Grayscale/Gray100",
+        borderColor: "figma.Gray100",
       },
       textFilled: {
-        bg: "figma.Grayscale/White",
+        bg: "figma.White",
       },
     },
     size: {
@@ -66,7 +66,7 @@ export const buttonRecipe = defineRecipe({
     },
   },
   defaultVariants: {
-    theme: "dangerFilled",
+    visual: "primaryFilled",
     size: "medium",
   },
 });

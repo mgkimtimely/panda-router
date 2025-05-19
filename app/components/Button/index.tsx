@@ -1,34 +1,13 @@
-// ✅ 올바른 코드
-import { css } from "styled-system/css";
-import { button } from "styled-system/recipes";
+import { button, type ButtonVariantProps } from "styled-system/recipes";
 
 interface ButtonProps {
-  theme:
-    | "primaryFilled"
-    | "dangerFilled"
-    | "primaryGhostFilled"
-    | "dangerGhostFilled"
-    | "whiteFilled"
-    | "grayScaleFilled"
-    | "grayScaleOutline"
-    | "roundOutLine"
-    | "textFilled";
-  size: "large" | "medium" | "small";
+  visual?: ButtonVariantProps["visual"];
+  size?: ButtonVariantProps["size"];
+  shape?: ButtonVariantProps["shape"];
   children: React.ReactNode;
 }
-
-export default function ButtonComponent({
-  theme,
-  size,
-  children,
-}: ButtonProps) {
+export function Button({ children, visual, size, shape }: ButtonProps) {
   return (
-    <>
-      <button className={button({ theme: theme, size: size })}>
-        <span className={css({ textStyle: "Title/32px/32px.700" })}>
-          {children}
-        </span>
-      </button>
-    </>
+    <button className={button({ visual, size, shape })}>{children}</button>
   );
 }

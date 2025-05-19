@@ -7,7 +7,8 @@
     "dev": "pnpm panda clean && panda codegen && panda build && react-router dev --port 5174",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
-    "prepare": "panda codegen && panda build"
+    "prepare": "panda codegen && panda build",
+    "panda:watch": "pnpm panda --watch"
   },
   "dependencies": {
     "@react-router/node": "^7.5.3",
@@ -24,8 +25,8 @@
     "@types/node": "^20",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "autoprefixer": "^10.4.17",
-    "postcss": "8.4.49",
+    "autoprefixer": "^10.4.19",
+    "postcss": "8.4.38",
     "style-dictionary": "^4.4.0",
     "tailwindcss": "^4.1.4",
     "tsx": "^4.19.4",

@@ -1,35 +1,35 @@
-import ButtonComponent from "~/components/Button";
+import { Button } from "~/components/Button";
 
 export default function Test() {
   return (
     <>
-      <ButtonComponent theme="primaryFilled" size="large">
+      <Button visual="primaryFilled" size="medium">
         wefwefwefwef
-      </ButtonComponent>
-      <ButtonComponent theme="dangerGhostFilled" size="large">
+      </Button>
+      <Button visual="dangerGhostFilled" size="medium">
         wefwefwefwef
-      </ButtonComponent>
-      <ButtonComponent theme="dangerFilled" size="large">
+      </Button>
+      <Button visual="dangerFilled" size="medium">
         wefwefwefwef
-      </ButtonComponent>
-      <ButtonComponent theme="primaryGhostFilled" size="large">
+      </Button>
+      <Button visual="primaryGhostFilled" size="medium">
         wefwefwefwef
-      </ButtonComponent>
-      <ButtonComponent theme="whiteFilled" size="large">
+      </Button>
+      <Button visual="whiteFilled" size="medium">
         wefwefwefwef
-      </ButtonComponent>
-      <ButtonComponent theme="grayScaleFilled" size="large">
+      </Button>
+      <Button visual="grayScaleFilled" size="medium">
         wefwefwefwef
-      </ButtonComponent>
-      <ButtonComponent theme="grayScaleOutline" size="large">
+      </Button>
+      <Button visual="grayScaleOutline" size="medium">
         wefwefwefwef
-      </ButtonComponent>
-      <ButtonComponent theme="roundOutLine" size="large">
+      </Button>
+      <Button visual="roundOutLine" size="medium">
         wefwefwefwef
-      </ButtonComponent>
-      <ButtonComponent theme="textFilled" size="large">
+      </Button>
+      <Button visual="textFilled" size="medium">
         wefwefwefwef
-      </ButtonComponent>
+      </Button>
     </>
   );
 }
