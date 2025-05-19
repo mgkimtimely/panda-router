@@ -1,35 +1,19 @@
+import { css } from "styled-system/css";
+import { Flex } from "styled-system/jsx";
 import { Button } from "~/components/Button";
-
 export default function Test() {
   return (
     <>
-      <Button visual="primaryFilled" size="medium">
-        wefwefwefwef
-      </Button>
-      <Button visual="dangerGhostFilled" size="medium">
-        wefwefwefwef
-      </Button>
-      <Button visual="dangerFilled" size="medium">
-        wefwefwefwef
-      </Button>
-      <Button visual="primaryGhostFilled" size="medium">
-        wefwefwefwef
-      </Button>
-      <Button visual="whiteFilled" size="medium">
-        wefwefwefwef
-      </Button>
-      <Button visual="grayScaleFilled" size="medium">
-        wefwefwefwef
-      </Button>
-      <Button visual="grayScaleOutline" size="medium">
-        wefwefwefwef
-      </Button>
-      <Button visual="roundOutLine" size="medium">
-        wefwefwefwef
-      </Button>
-      <Button visual="textFilled" size="medium">
-        wefwefwefwef
-      </Button>
+      <Flex flexDir="column" gap="24px">
+        <svg className={css({ fill: "figma.Blue500" })} />
+        <Button visual="primaryFilled" size="medium">
+          안녕
+        </Button>
+        <Button visual="dangerGhostFilled" size="medium">
+          안녕
+        </Button>
+        <div className={css({ animation: "pingpong 1s" })}>안녕</div>
+      </Flex>
     </>
   );
 }

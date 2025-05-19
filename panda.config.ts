@@ -1,6 +1,7 @@
 import { defineConfig } from "@pandacss/dev";
 import { buttonRecipe } from "recipes/button.recipe";
 import { defaultTheme } from "themes/default";
+import { keyframeStyles } from "themes/keyframes";
 
 export default defineConfig({
   // Whether to use css reset
@@ -23,6 +24,9 @@ export default defineConfig({
         button: buttonRecipe,
       },
       ...defaultTheme,
+      keyframes: {
+        ...keyframeStyles,
+      },
     },
   },
 });

@@ -48,6 +48,7 @@ export const buttonRecipe = defineRecipe({
         alignItems: "center",
         gap: "10px",
         textStyle: "title-60px-700",
+        borderRadius: "16px",
       },
       medium: {
         padding: "10px 24px",
@@ -55,6 +56,7 @@ export const buttonRecipe = defineRecipe({
         justifyContent: "center",
         alignItems: "center",
         gap: "8px",
+        borderRadius: "12px",
       },
       small: {
         padding: "8px 16px",
@@ -62,6 +64,7 @@ export const buttonRecipe = defineRecipe({
         justifyContent: "center",
         alignItems: "center",
         gap: "6px",
+        borderRadius: "8px",
       },
     },
   },
